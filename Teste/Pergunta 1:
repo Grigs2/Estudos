@@ -1,0 +1,3 @@
+1-Responda a pergunta, o que e polimorfismo e qual sua utilização?
+Polimorfismo é a utilização de funções de uma classe pai em uma classe filha, por meio do "extends", e a reestruturação da mesma função para o caso especifico da classe filha.
+Essa reestruturação pode ser mudando a assinatura da função ou apenas mudando seu conteudo de ações lógicas.
