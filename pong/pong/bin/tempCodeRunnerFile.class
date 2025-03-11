@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+      Game game = new Game();
+      JFrame frame = new JFrame("Pong");
+      frame.setResizable(false);
+      frame.setDefaultCloseOperation(3);
+      frame.add(game);
+      frame.pack();
+      frame.setLocationRelativeTo((Component)null);
+      frame.setVisible(true);
+      (new Thread(game)).start();
+   }
